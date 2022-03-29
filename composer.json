@@ -1,0 +1,16 @@
+{
+    "name": "herreracode/php-skeleton-quick-start",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Herreracode\\PhpSkeletonQuickStart\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gerardo Herrera"
+        }
+    ],
+    "require": {
+    }
+}
