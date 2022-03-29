@@ -1,5 +1,6 @@
 {
     "name": "herreracode/php-skeleton-quick-start",
+    "description": "initial project with php docker",
     "type": "project",
     "autoload": {
         "psr-4": {
@@ -12,5 +13,6 @@
         }
     ],
     "require": {
+        "php" : ">=7.4"
     }
 }
