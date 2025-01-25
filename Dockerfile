@@ -1,4 +1,4 @@
-FROM php:8.1.4
+FROM php:8.4
 
 RUN apt-get update && apt-get install -y autoconf libmcrypt-dev pkg-config apt-utils git vim openssl zip libssl-dev unzip\
  && apt-get install vim && docker-php-ext-install pdo pdo_mysql
